@@ -1,5 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
+import VueiClient from '@supermap/vue-iclient-mapboxgl';
+Vue.use(VueiClient);
 // 引入模块
 const MapIndex = () => import("@/views/map/MapIndex.vue");
 // 安装路由

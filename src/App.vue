@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <router-link to="/mapIndex">地图</router-link>
+    <!-- <router-link to="/mapIndex"> 地图 </router-link> -->
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
-  components: {
-    
-  }
-}
+  name: "App",
+  components: {},
+};
 </script>
 
 <style>
@@ -21,6 +19,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
